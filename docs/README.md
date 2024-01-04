@@ -14,20 +14,17 @@ This project aims to create a tool that leverages computer vision algorithms to 
 - Provide insights into variations of color blindness.
 ## Structure du Projet
 
-Le projet est organisé de la manière suivante :
+The project is organized as follows:
 
-- **`src/`**: Ce répertoire contient le code source de l'application.
-  - **`main.py`**: Point d'entrée de l'application.
-  - **`utils/`**: Utilitaires et fonctions réutilisables.
-  - **`vision/`**: Modules de traitement d'image et de vision par ordinateur.
+- **`src/`**: This directory contains the application's source code.
+  - **`main.py`**: Entry point of the application.
+  - **`final_result/`**: Final result on an image.
 
-- **`data/`**: Ce répertoire contient les données nécessaires pour les tests et les exemples.
-  - **`ishihara_plates/`**: Images des plaques Ishihara pour les tests.
-  - **`ishihara_tests/`**: ce repertoire contient les codes des tests Ishihara.
+- **`data/`**: This directory contains the necessary data for tests and examples.
+  - **`ishihara_plates/`**: Images of Ishihara plates for tests.
+  - **`ishihara_tests/`**: This directory contains Ishihara test codes.
 
-- **`docs/`**: Documentation du projet.
-  - **`README.md`**: Documentation principale.
+- **`docs/`**: Project documentation.
+  - **`README.md`**: Main documentation.
 
-- **`tests/`**: Tests unitaires et de validation.
-  - **`test_main.py`**: Tests pour le module principal.
 

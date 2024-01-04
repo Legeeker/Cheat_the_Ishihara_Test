@@ -6,7 +6,10 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 # Charger l'image
-frame2 = cv2.imread("12.jpg")
+image_path = "data/ishihara_plates/12.jpg"
+
+# Lire l'image
+frame2 = cv2.imread(image_path)
 
 # Convertir l'image BGR en HSV
 hsv2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2HSV)
